@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh menu horizontal</title>
+
+  <style>
+    .menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border: solid black 2px;
+      border-radius: 20px 0 20px 0;
+      
+    }
+    
+    .menu li {
+      display: inline-block; /* Membuat item elemen berjajar horizontal */
+      margin-right: 15px; /* Memberi jarak ke samping */
+    }
+    
+    .menu a {
+      text-decoration: none;
+      color: #333;
+    }
+    .menu a:hover {
+      background-color: gray;
+    }
+  </style>
+  
+</head>
+<body>
+
+<p>Ini adalah HTML dengan CSS dan Inline-Block.</p>
+
+<ul class="menu">
+<li><a href="beranda.html">Beranda</a></li>
+<li><a href="sekolahku.html">Sekolahku</a></li>
+<li><a href="tentang-saya.html">Tentang Saya</a></li>
+<li><a href="syair-lagu.html">Syair Lagu</a></li>
+</ul> 
+
+<p>Dengan CSS, list di atas dapat diubah menjadi menu horizontal.<br>
+  Ada dua cara mengubah list menjadi menu horizontal:</p>
+
+<ol>
+  <li><a href="flexbox.html">Menggunakan Flexbox</a></li>
+  <li><a href="inline-block.html">Menggunakan Inline-block</a></li>
+</ol>
+
+<p><a href="./">Kembali ke HTML tanpa CSS.</a></p>
+
+</body>
+</html>
