@@ -5,8 +5,7 @@
             color: rgb(0, 0, 0);
             margin: 10px;
             border: solid 1px orange;
-            background-image: url(../image/tempe.jpg);
-            background-attachment: fixed;
+            
             background-color: lightyellow;
             font-weight: light;
             
@@ -14,7 +13,9 @@
         .kepala{
             
              text-align: center;
-           
+           background-image: url(../image/tempe.jpg);
+            background-attachment: fixed;
+           background-position: center;
             
         }
         
