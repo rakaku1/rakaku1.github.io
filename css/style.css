@@ -12,9 +12,12 @@
         }
 header {
  background-image: url(../image/tempe.jpg);
-            background-attachment: fixed;
+ background-attachment: fixed;
            background-position: center;
            background-repeat: no-repeat;
+ display: flex;
+ margin: auto; 
+ 
 }
         .kepala{
             
