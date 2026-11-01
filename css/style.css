@@ -10,13 +10,16 @@
             font-weight: light;
             
         }
-        .kepala{
-            
-             text-align: center;
-           background-image: url(../image/tempe.jpg);
+header {
+ background-image: url(../image/tempe.jpg);
             background-attachment: fixed;
            background-position: center;
            background-repeat: no-repeat;
+}
+        .kepala{
+            
+             text-align: center;
+           
             
         }
         
