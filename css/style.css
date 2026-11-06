@@ -16,6 +16,7 @@
             text-align: center;
             background-color: red;
             display: flex;
+            color: white;
 
         }
         ul a:link {
