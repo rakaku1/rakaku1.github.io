@@ -5,23 +5,41 @@
             color: rgb(0, 0, 0);
             margin: 10px;
             border: solid 1px orange;
-            
+            background-image: url(../image/tempe.jpg);
+            background-attachment: fixed;
             background-color: lightyellow;
             font-weight: light;
             
         }
-header {
- background-image: url(../image/tempe.jpg);
- background-attachment: fixed;
-           background-position: center;
-           background-repeat: no-repeat;
- background-size: cover;
- display: flex;
- margin: 10px; 
- overlay: hidden;
- 
- 
-}
+        nav {
+            align-items: center;
+            text-align: center;
+            background-color: red;
+            display: flex;
+
+        }
+        ul a:link {
+            color: white;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+        ul a:hover {
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        li {
+            padding: 10px;
+        }
         .kepala{
             
              text-align: center;
